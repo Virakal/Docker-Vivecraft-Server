@@ -25,7 +25,7 @@ download() {
             rm "$2"
         fi
     else
-        log "Skipping downloading '$2' because it already exists"
+        log "Skipping the download of '$2' because it already exists"
     fi
 }
 
